@@ -140,7 +140,7 @@ main()
                     options+=("${local_options[@]}" "-DOT_EXTERNAL_MBEDTLS=nordicsemi-mbedtls")
                     ;;
                 USB_trans)
-                    options+=("${local_options[@]}" "-DOT_USB=ON" "-DOT_EXTERNAL_MBEDTLS=nordicsemi-mbedtls")
+                    options+=("${local_options[@]}" "-DOT_USB=ON")
                     ;;
                 SPI_trans_NCP)
                     OT_CMAKE_NINJA_TARGET=("ot-ncp-ftd" "ot-ncp-mtd" "ot-rcp")

@@ -221,7 +221,7 @@
  *
  */
 #ifndef OPENTHREAD_CONFIG_HEAP_INTERNAL_SIZE
-#define OPENTHREAD_CONFIG_HEAP_INTERNAL_SIZE (4096 * sizeof(void *))
+#define OPENTHREAD_CONFIG_HEAP_INTERNAL_SIZE (8192 * sizeof(void *))
 #endif
 
 /**
